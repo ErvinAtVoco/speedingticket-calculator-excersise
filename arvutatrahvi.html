@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+	<title></title>
+	<meta name="description" content="Õpime Javascripti" />
+	<meta name="keywords" content="HTML,CSS,HTML5,CSS3, Javascript" />
+	<meta name="author" content="Ervin Tombak" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8" />
+</head>
+<body>
+	<div style="background-color:#648793">
+		<h1 style="font-color:#979797"><b>Kiiruse ületamise trahvi kalkulaator</b></h1>
+		<br>
+		<p style="font-color:#979797"><b>Palun sisestage nõutud andmed <u>ausalt.</u></b></p>
+		<br>
+		<br>
+	</div>
+	<br>
+	<label for="nimi">Palun sisestage oma nimi</label>
+	<input type="text" id="nimi" placeholder="Eesnimi Perenimi">
+	<br>
+	<br>
+	<label for="lubatud_kiirus">Palun sisestage lubatud kiirus <b>(km/h)</b></label>
+	<input type="number" id="lubatud_kiirus" placeholder="Kiirus km/h">
+	<br>
+	<br>
+	<label for="tegelik_kiirus">Palun sisestage oma tegelik kiirus <b>(km/h)</b></label>
+	<input type="number" id="tegelik_kiirus" placeholder="Kiirus km/h">
+	<br>
+	<br>
+	<button onclick="esitaTrahv()">Arvuta</button>
+	<br>
+	<div id="tulemus">...</div>
+	<script src="trahviarvutus.js"></script>
+</body>
+</html>
